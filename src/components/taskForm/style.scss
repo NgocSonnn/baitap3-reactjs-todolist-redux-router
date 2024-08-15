@@ -1,0 +1,29 @@
+.task-form-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .task-form-container {
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .task-form {
+        display: flex;
+
+        &__label {
+            min-width: 110px;
+            align-items: center;
+            display: flex;
+        }
+    }
+
+    .task-form-btn {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+}
